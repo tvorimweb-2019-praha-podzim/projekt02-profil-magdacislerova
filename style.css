@@ -17,39 +17,59 @@ html { box-sizing: border-box; }
 body {
     background-color:#31363b;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     color: #bdc3c7;
-    margin: 0 auto;
+    margin: 0;
     line-height: 1.5;
     }
 
+
+.foto {
+  width: 250px;
+  height: auto;
+  display: block;
+  }
+
+.logo {
+  background-color: #b92e81;
+  border-radius: 50%;
+  Width: 45px;
+  height: auto;
+  position: absolute;
+  top: 145px;
+  left: 175px;
+  box-shadow: 3px 2px 5px #000007;
+}
+
 .obsah{
-  padding: 50px 5%;
+  padding: 10px 1%;
+  width: 250px;
   }
 
 
 h1{
   font-family: 'Montserrat', sans-serif;
   color:white;
-  font-size: 70px;
+  font-size: 30px;
 }
 
 .odkazy {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
+  padding: 0;
+  width: 250px;
   }
 
 .odkazy li{
   display: inline-block;
-  
   }
 
 .odkazy a{
   color: #bdc3c7;
   text-decoration: none;
   font-weight: bold; 
-  padding: 20px;
-  border-bottom: solid #3f464d;
+  padding: 10px;
+  border-bottom: solid 2px #3f464d;
   display: block;
   }
 
@@ -57,10 +77,10 @@ h1{
   text-align: center;
   width: 100%;
   float: center;
-  border-top: solid #3f464d;
+  border-top: solid 2px #3f464d;
   }
 
-.portfolio a:hover, a:focus{
+.portfolio a:hover {
   background-color: #e74c3c;
   box-shadow: 3px 2px 5px #000007;
 }
@@ -69,10 +89,10 @@ h1{
   text-align: center;
   width: 50%;
   float: left;
-  border-right: solid #3f464d;
+  border-right: solid 2px #3f464d;
  }
 
-.facebook a:hover, a:focus{
+.facebook a:hover {
   background-color: #3b5998;
   box-shadow: 3px 2px 5px #000007;
 }
@@ -83,31 +103,7 @@ h1{
   float: right;
   }
 
-.twitter a:hover, a:focus{
+.twitter a:hover{
   background-color: #1da1f2;
-  box-shadow: 3px 2px 5px #000007;
-}
-
-
-.hlavicka{
-  padding: 0;
-  margin: 0 auto;
-  width: 100%;
-  }
-
-.foto {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  }
-
-.logo {
-  background-color: #b92e81;
-  border-radius: 50%;
-  Width: 100px;
-  height: auto;
-  position: absolute;
-  top: 430px;
-  left: 540px;
   box-shadow: 3px 2px 5px #000007;
 }
